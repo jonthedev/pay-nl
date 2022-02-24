@@ -1,0 +1,30 @@
+.merchant {
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #e9e9e9;
+}
+
+.merchant:hover {
+  background-color: #cfcbcb;
+  transform: translateX(5px);
+}
+
+.merchant img {
+  display: none;
+  width: 50%;
+  border-radius: 10px;
+  float: right;
+}
+
+@media screen and (orientation: landscape) {
+  .merchant img {
+    display: block;
+  }
+}
